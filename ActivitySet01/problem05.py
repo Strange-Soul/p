@@ -1,29 +1,14 @@
 # Functions
+def computepay(hrs, rate):
+  if hrs>40:
+    pay=rate*40+(hrs-40)*rate*1.5
+    print(pay)
+  else:
+    pay=rate*hrs
+    print(pay)
+    
+hrs = float(input("Enter hours:"))
+rate = float(input("Enter rate per hour:"))
 
-score =float(input("Enter Score: "))
-if score > 1.0:
-    print('Error')
-elif score >= 0.9:
-    print('A')
-elif score >= 0.8:
-    print('B')
-elif score >= 0.7:
-    print('C')
-elif score >= 0.6:
-    print('D')
-else: 
-    print('F')
-
-
-
-
-
-'''def computepay(h, r):
-    pass  # ...
-
-
-hrs = float(input("Enter hours? "))
-rte = float(input("Enter rate per hour? "))
-
-p = computepay(hrs, rte)
-print("Pay", p)'''
+p = computepay(hrs, rate)
+print("Pay", p)
