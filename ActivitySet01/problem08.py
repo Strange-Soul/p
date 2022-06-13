@@ -1,7 +1,7 @@
 # Files
 
 filename = "dataset/mbox-short.txt"
-#fname = input("Enter file name: ")
+fname = input("Enter file name: ")
 fh = open(filename)
 count = 0
 number = 0

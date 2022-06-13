@@ -1,7 +1,13 @@
 # Dictionaries
 
 #filename = "dataset/mbox-short.txt"
-a=int(input("enter a num:"))
+
+
+
+
+
+
+"'a=int(input("enter a num:"))
 b=int(input("enter a num:"))
 c=int(input("enter a num:"))
 if a>b and a>c:
